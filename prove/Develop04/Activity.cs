@@ -6,14 +6,7 @@ public class Activity
     private string _name;
     private string _description;
     private int _duration;
-    public Activity()
-    {
-        _name = "";
 
-        _description = "";
-
-        _duration = 15;
-    }
     public void GetName(string name)
     {
         _name = name;
