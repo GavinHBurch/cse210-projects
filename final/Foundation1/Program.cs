@@ -8,7 +8,7 @@ class Program
 
         List<Video> videoList = new List<Video>();
 
-        Video video1 = new Video("Miracles, Angels, and Preisthood Power", "Shayne M. Bowen", 480);
+        Video video1 = new Video("Miracles, Angels, and Preisthood Power", "Shayne M. Bowen", 704);
 
         Comment video1Comment1 = new Comment("Andrew", "The day of miracles has indeed not passed and in fact shall increase in frequency as we approach the second coming of Christ. I myself have seen miracles and been preserved by the hand of God.");
 
@@ -24,7 +24,7 @@ class Program
 
         videoList.Add(video1);
 
-        Video video2 = new Video("In support of the Rising Generation", "Michael T. Nelson", 900);
+        Video video2 = new Video("In support of the Rising Generation", "Michael T. Nelson", 681);
 
         Comment video2Comment1 = new Comment("Nathan", "If we choose to love Jesus Christ above all other things, we can be free from the miserable grip of addiction, as well as a great hope that we can live with our loved ones with God forever!");
 
@@ -40,7 +40,7 @@ class Program
 
         videoList.Add(video2);
 
-        Video video3 = new Video("Motions of a Hidden Fire", "Jeffrey R. Holland", 650);
+        Video video3 = new Video("Motions of a Hidden Fire", "Jeffrey R. Holland", 808);
 
         Comment video3Comment1 = new Comment("Nick", "I am not an LDS member.  I was figurately introduced to him from an active member, thru these General Conference presentations.  I am respectfully impressed by Elder Holland's human ness.  When he speaks, it is clear that he is a vessel of our Lord, giving us His hope. Elder Holland's testimony gives me hope.");
 
