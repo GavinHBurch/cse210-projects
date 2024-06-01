@@ -2,17 +2,17 @@ using System;
 
 public class Comment
 {
-    private string _name;
-    private string _text;
+    private string _commentAuthor;
+    private string _commentText;
     public Comment(string name, string text)
     {
-        _name = name;
+        _commentAuthor = name;
 
-        _text = text;
+        _commentText = text;
     }
     public void DisplayInfo()
     {
-        Console.WriteLine($"{_name} - {_text}");
+        Console.WriteLine($"{_commentAuthor} - {_commentText}");
     }
 
     internal void DisplayVideoInfo()
