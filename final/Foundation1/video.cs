@@ -3,8 +3,11 @@ using System;
 public class Video 
 {
     private string _title;
+
     private string _author;
+
     private double _videoLength;
+    
     private List<Comment> _comments = new List<Comment>();
 
     public Video(string title, string author, double length)
